@@ -144,7 +144,7 @@ app.get("/get-all-categories", getAllCategories);
 app.post("/add-review", addReview);
 app.post("/check-review", checkReview);
 
-// Google Gemini
+// Google Gemini API
 app.post("/diet-suggestions", dietSuggestions);
 
 // Start the server with Socket.IO
